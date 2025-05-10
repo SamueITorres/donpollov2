@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "donpollov2",
+  "version": "${version}",
+  "name": "donpollov2",
+  "description": "mod de don dollo :) ",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/donpollov2/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.miguel.donpollov2.client.Donpollov2Client"
+    ],
+    "main": [
+      "org.miguel.donpollov2.Donpollov2"
+    ]
+  },
+  "mixins": [
+    "donpollov2.mixins.json",
+    {
+      "config": "donpollov2.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

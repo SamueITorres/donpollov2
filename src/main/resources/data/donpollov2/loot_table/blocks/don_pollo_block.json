@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:block",
+  "pools":[
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "donpollov2:don_pollo_block"
+        }
+          ],
+          "conditions":[
+            {
+              "condition": "match_tool",
+              "predicate": {
+                "items": [
+                  "minecraft:iron_pickaxe",
+                  "minecraft:diamond_pickaxe",
+                  "minecraft:netherite_pickaxe"
+                ]
+              }
+        }
+          ]
+
+    }
+    ]
+}

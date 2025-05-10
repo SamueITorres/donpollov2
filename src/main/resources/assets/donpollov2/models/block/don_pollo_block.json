@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "north": "donpollov2:block/don_pollo_block_north",
+    "east": "donpollov2:block/don_pollo_block_east",
+    "south": "donpollov2:block/don_pollo_block_south",
+    "west": "donpollov2:block/don_pollo_block_west",
+    "up": "donpollov2:block/don_pollo_block_top",
+    "down": "donpollov2:block/don_pollo_block_bottom",
+    "particle": "donpollov2:block/don_pollo_block_south"
+  }
+}
