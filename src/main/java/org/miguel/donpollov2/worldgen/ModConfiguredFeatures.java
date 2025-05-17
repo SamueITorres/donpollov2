@@ -1,4 +1,4 @@
-package org.miguel.donpollov2.world.gen;
+package org.miguel.donpollov2.worldgen;
 import blocks.BlockDonPollo;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;

@@ -1,4 +1,4 @@
-package org.miguel.donpollov2.world.gen;
+package org.miguel.donpollov2.worldgen;
 
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
