@@ -1,4 +1,5 @@
 package org.miguel.donpollov2.worldgen;
+
 import blocks.BlockDonPollo;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
@@ -34,4 +35,4 @@ public class ModConfiguredFeatures {
 
 
 
-    }
+}

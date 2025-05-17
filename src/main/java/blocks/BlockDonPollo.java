@@ -24,12 +24,6 @@ public class BlockDonPollo {
     );
 
 
-    public static final RegistryKey<PlacedFeature> DON_POLLO_ORE_PLACED_KEY = RegistryKey.of(
-            RegistryKeys.PLACED_FEATURE,
-            Identifier.of("donpollov2", "don_pollo_ore_placed") // verify
-    );
-
-
 
 
     public static void registerBlock(){
