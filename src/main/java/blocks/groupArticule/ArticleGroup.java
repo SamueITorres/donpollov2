@@ -29,6 +29,6 @@ public class ArticleGroup {
     }
 
     public static void initialize(){
-        registerGroup();
+       // registerGroup();
     }
 }

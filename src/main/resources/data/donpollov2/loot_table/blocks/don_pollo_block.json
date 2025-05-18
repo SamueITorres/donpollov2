@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "donpollov2:don_pollo_block"
+          "name": "donpollov2:don_pollo_mineral"
         }
           ],
           "conditions":[

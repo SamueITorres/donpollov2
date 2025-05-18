@@ -6,6 +6,8 @@
     import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
     import net.minecraft.registry.RegistryBuilder;
     import net.minecraft.registry.RegistryKeys;
+    import org.miguel.donpollov2.items.ModItems;
+    import org.miguel.donpollov2.trades.ModTrades;
     import org.miguel.donpollov2.worldgen.WorldGeneration;
     import org.slf4j.Logger;
     import org.slf4j.LoggerFactory;
@@ -20,8 +22,8 @@
                     LOGGER.info("Registrando el bloque !!!!");
                     ArticleGroup.initialize();
                     BlockDonPollo.registerBlock();
-
-
+                    ModItems.initialize();
+                    ModTrades.registerTrades();
                     WorldGeneration.registerWorldGen();
 
 
