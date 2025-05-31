@@ -6,6 +6,7 @@
     import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
     import net.minecraft.registry.RegistryBuilder;
     import net.minecraft.registry.RegistryKeys;
+    import org.miguel.donpollov2.entity.ModEntities;
     import org.miguel.donpollov2.items.ModItems;
     import org.miguel.donpollov2.trades.ModTrades;
     import org.miguel.donpollov2.worldgen.WorldGeneration;
@@ -25,7 +26,7 @@
                     ModItems.initialize();
                     ModTrades.registerTrades();
                     WorldGeneration.registerWorldGen();
-
+//                    ModEntities.registerModEntities();
 
                 }
             }

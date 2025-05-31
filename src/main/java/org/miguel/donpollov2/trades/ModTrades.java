@@ -17,7 +17,7 @@ public class ModTrades {
                     factories.add
                             ((entity, random) -> new TradeOffer(
                                     new TradedItem(ModItems.DON_POLLO_MINERAL, 20), // El jugador entrega 1 mineral
-                                    new ItemStack(ModItems.DON_POLLO_EGG, 1),                   // El aldeano entrega 1 huevo
+                                    new ItemStack(ModItems.SWORD_DON_POLLO, 1),                   // El aldeano entrega 1 huevo
                                     10,   // máximo usos de la oferta
                                     2,    // experiencia que gana el aldeano por la transacción
                                     0.05f // multiplicador de precio
